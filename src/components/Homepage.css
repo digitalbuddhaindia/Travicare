@@ -1,0 +1,183 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.home1 {
+    background-image: url(../assets/images/Rectangle\ 2.svg);
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #000000;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    left: 195px;
+
+    padding-top: 6px;
+    width: 1440px;
+    height: 751px;
+    font-family: "canela deck trial";
+    opacity: 0.7;
+
+}
+
+.home1 span {
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+}
+
+.tr1 {
+    text-align: center;
+    height: 5px;
+    left: 45.9%;
+    right: 52.5%;
+    top: 0.65%;
+    bottom: 98.96%;
+
+
+
+}
+
+.tr12 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: white;
+    padding-left: 14px;
+    margin: .5rem;
+    height: 10px;
+}
+
+.Booknowbtn12 {
+    color: #ffffff;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: Transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5,
+
+
+}
+
+.text {
+    width: 828px;
+    height: 68px;
+    left: 305px;
+    top: 309px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    text-align: center;
+    text-transform: lowercase;
+    padding-left: 300px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    /* identical to box height */
+    padding-bottom: 80px;
+    padding-top: 100px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.text1 {
+    width: 449px;
+    height: 52px;
+    left: 495px;
+    top: 411px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-left: 500px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    padding-top: 210px;
+    /* height: 19px; */
+
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.text3 {
+    /* height: 11px; */
+    /* top: 627px; */
+    text-align: center;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    padding-bottom: 100px;
+    letter-spacing: 0.34em;
+    color: #FFFFFF;
+    /* width: 139px;
+height: 11px; */
+
+}
+
+/* .icon{
+width: 22px;
+height: 36px;
+left: 635px;
+top: 604px;
+border: 2px solid #FFFFFF
+} */
+.iconimage {
+
+    width: 22px;
+    height: 36px;
+    /* left: 635px;
+    top: 604px; */
+    border: 2px solid #FFFFFF;
+
+    border-radius: 14px;
+    margin-left: 500px;
+}
+
+.disc {
+    /* padding-top: 200px; */
+    /* height: 19px; */
+
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.text2 t8 {
+    border: 2px solid #FFFFFF;
+    border-radius: 14px;
+    margin-left: 200px;
+    padding-top: 10px;
+   
+
+}
+
+.text2 t7 {
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin-left: 500px;
+    padding-top: 10px;
+
+}
