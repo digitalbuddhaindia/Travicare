@@ -10,9 +10,9 @@
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
-    left: 195px;
 
-    padding-top: 6px;
+
+    padding-top: 12px;
     width: 1440px;
     height: 751px;
     font-family: "canela deck trial";
@@ -132,52 +132,14 @@ height: 11px; */
 
 }
 
-/* .icon{
-width: 22px;
+
+
+
+.tex {
+width: 170px;
 height: 36px;
 left: 635px;
 top: 604px;
-border: 2px solid #FFFFFF
-} */
-.iconimage {
-
-    width: 22px;
-    height: 36px;
-    /* left: 635px;
-    top: 604px; */
-    border: 2px solid #FFFFFF;
-
-    border-radius: 14px;
-    margin-left: 500px;
-}
-
-.disc {
-    /* padding-top: 200px; */
-    /* height: 19px; */
-
-    font-family: 'Canela Text Trial';
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    margin-left: 10px;
-    color: #FFFFFF;
-}
-
-.text2 t8 {
-    border: 2px solid #FFFFFF;
-    border-radius: 14px;
-    margin-left: 200px;
-    padding-top: 10px;
-   
-
-}
-
-.text2 t7 {
-    border: 2px solid #FFFFFF;
-    transform: rotate(90deg);
-    margin-left: 500px;
-    padding-top: 10px;
-
+padding-left :600px;
+margin-top: 200px;
 }

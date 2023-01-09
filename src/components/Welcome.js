@@ -12,7 +12,7 @@ function Welcome() {
      <span >LET US BE YOUR TRUSTED GUIDES</span>
     </div>
     <div className ='trav4'>
-    <span >Experience.Expand. Explore</span>
+    <span >Experience.Expand.Explore</span>
     
     </div>
     

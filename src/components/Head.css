@@ -7,7 +7,7 @@
     font-weight: 400;
     left:195px; 
     height: 100px;
-    padding-top: 10px;
+    padding-top: 12px;
     font-family:"canela deck trial"
 }
 .nav2 span{
@@ -24,6 +24,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 14px;
+padding-top: 100px;
 text-align:right;
 color: black;
 padding-left: 14px;

@@ -11,6 +11,7 @@ import Vec6 from "../assets/images/Vec6.svg";
 import Vec7 from "../assets/images/Vec7.svg";
 import Vec8 from "../assets/images/Vec8.svg";
 import Line4 from "../assets/images/Line 4.svg"
+import imag from "../assets/images/imag.svg"
 
 
 function Homepage() {
@@ -18,8 +19,7 @@ function Homepage() {
     <div className ='home1'>
     <span >HOME   </span>
     <span >ABOUT  </span>
-    <span>PACKAGES  </span>
-  
+    <span>PACKAGES  </span>  
     <div className='tr1'>
     <img src={Vector} alt=''></img>
     <img src={Vec1} alt=''></img>
@@ -33,7 +33,7 @@ function Homepage() {
     <img src={Vec8} alt=''></img>
     
     
-    </div>
+    </div> 
     <div className='tr12'>
     <span>BLOG</span>
     <span >CONTACT  </span>
@@ -47,21 +47,16 @@ function Homepage() {
      <span>iF YOU ARE LOOKING FOR A SUPERB RETREAT CENTRE IN</span><br/>
         <span>GREECE, THEN YOU ARE IN THE RIGHT PLACE!</span>
      </div>
-     <div  className='text2'>
+     <div  className='tex'>
     
-     <span className='t8'><img src={Rectangle5} alt=''></img></span>
-     <span>Scroll down</span>
-      <span className='t7'><img src={Line4} alt=''></img></span>
+     <span><img src={imag} alt=''></img></span>
+    
    
      
      
      </div>
      
-     <div className='disc'>
-     <span>TO DISCOVER MORE</span>
-    
-     </div>
-   
+     
     </div>
     
  )

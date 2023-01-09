@@ -6,13 +6,13 @@
     background-repeat: no-repeat;
     width: 419px;
     height: 499px;
-
+    margin-left: 120px;
 
     padding-bottom: 100px;
     /* background: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%); */
     border-radius: 0px 0px 25px 25px;
-    margin-right: 10px;
-    padding-right: 20px;
+    /* margin-right: 10px; */
+    padding-left: 25px;
 }
 
 .Boo1 {
@@ -38,7 +38,7 @@
     background: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%); */
     border-radius: 0px 0px 25px 25px;
     margin-right: 10px;
-    padding-right: 20px;
+    padding-left: 25px;
 
 }
 
@@ -52,6 +52,9 @@
 
     /* background: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%); */
     border-radius: 0px 0px 25px 25px;
+    margin-right: 10px;
+    padding-left: 25px;
+
 }
 
 .pac {
@@ -68,7 +71,7 @@
     height: 26px;
     left: 1205px;
     top: 1998px;
-
+    margin-top:30px ;
     background-color: #7B7B3B;
     border-radius: 7px;
 }
@@ -78,6 +81,7 @@
     border: 1px solid #7B7B3B;
     border-radius: 1.5px;
     margin-left: 190px;
+    margin-top:30px ;
     width: 200px;
     height: 26px;
     left: 1205px;
@@ -93,6 +97,7 @@
     border: 1px solid #7B7B3B;
     border-radius: 1.5px;
     margin-left: 190px;
+    margin-top:30px ;
     width: 200px;
     height: 26px;
     left: 1205px;
