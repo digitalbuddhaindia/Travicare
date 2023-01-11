@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+.unique-component{
+    width: 100%;
+}
+.unique-component .image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.unique-component .image-box img {
+    filter: brightness(50%);
+}
+.unique-title {
+    font-family: Canela Text Trial;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 25%;
+    width: 407px;
+    height: 41px;
+    color: #ffffffc8;
+    position: absolute;
+}
+.unique-caption {
+    position: absolute;
+    width: 858px;
+    top: 40%;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFFc8;
+}
+.view-btn {
+    border-radius: 60px;
+    font-family: Arial;
+    top: 70%;
+    color: #ffffffc8;
+    font-size: 20px;
+    background: #0a131a00;
+    padding: 9px 20px 10px 20px;
+    border: solid #ffffffc8 2px;
+    text-decoration: none;
+    position: absolute;
+    transition: 0.8s;
+}
+.view-btn:hover{
+    background-color:green;
+    color:white;
+  }
+.luxury-stay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.luxury-title {
+    margin: 50px 0px 0px 0px ;
+    width: 483px;
+    height: 53px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    text-align: center;
+    color: #7B7B3B;
+}
+.luxury-caption {
+    margin: 30px 0px 0px 0px ;
+    width: 858px;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    color: #666666;
+}
+.unique-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0px 40px 0px ;
+}
+@media only screen and (max-width: 768px){  
+    .unique-caption {
+        position: absolute;
+        width: 539px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+}

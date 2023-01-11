@@ -1,0 +1,108 @@
+@import url("https://fonts.cdnfonts.com/css/canela-text-trial");
+@import url("https://fonts.cdnfonts.com/css/din-alternate");
+
+.blog-container {
+  width: 100%;
+}
+
+.blog-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.blog-title {
+  width: 309px;
+  height: 41px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #114141;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+.blog-title-caption {
+  width: 1000px;
+  height: 50px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 157.5%;
+  text-align: center;
+  text-transform: lowercase;
+  color: #666666;
+  margin: 0px;
+  padding: 10px 0px 60px 0px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.blog-cards {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 650px;
+}
+
+.blog-cards img {
+  width: 533px;
+  height: 481px;
+}
+
+.blog-cards img:hover {
+  width: 553px;
+  height: 501px;
+  /* transform: scale(1.1);
+  z-index: 2; */
+}
+
+.blog-card-caption .blog-card-caption2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 460px;
+  height: 35px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128.5%;
+  color: #666666;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.blog-credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+  height: 35px;
+  margin-left: 40px;
+}
+
+.blog-credits p {
+  font-family: "DIN Alternate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  color: #114141;
+  height: 15px;
+  margin: 0;
+  text-align: start;
+}
