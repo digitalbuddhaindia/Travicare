@@ -1,0 +1,187 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{scroll-behavior: smooth;}
+.homenavbar1 {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  
+}
+
+.homenavbar1 .navleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30%;
+}
+
+.homenavbar1 .navleft .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.homenavbar1 .navright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30%;
+}
+.homenavbar1 .trav_logo1{
+    margin-top: 10px;
+
+}
+
+.homenavbar1 .navright .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    /* padding: 5px 10px; */
+}
+
+.home-backgroundimage {
+    position: relative;
+    width: 100%;
+    filter: brightness(40%);
+
+}
+
+
+.booknow {
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: Transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.text-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+}
+.text1{
+    width: 100%;
+    text-align: center;
+}
+.text2 {
+    /* position: absolute; */
+    width: 100%;
+    height: 52px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-style: normal; */
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.scroll {
+    /* position: absolute; */
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 768px){  
+    .text {
+        left: 37px;
+        top: 100px;
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        text-align: center;
+        text-transform: lowercase;
+        padding-left: 30px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 68px;
+        text-transform: lowercase;
+        color: #FFFFFF;
+    }
+    .ima1 {
+        width: 100px;
+        margin-left: 16px;
+    }
+    .te {
+        width: 402px;
+    }
+   .text1 {
+    position: absolute;
+    width: 449px;
+    height: 52px;
+    left: 43px;
+    top: 136px;
+    padding-top: 20px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.tex {
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 136px;
+    top: 2%;
+    padding-left: 50px;
+    margin-top: 200px;
+}
+.tex {
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 136px;
+    top: 2%;
+    padding-left: 50px;
+    margin-top: 223px;
+}
+
+   } */
