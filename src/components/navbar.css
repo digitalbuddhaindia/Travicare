@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+
+.par {
+    color: black;
+    background-color: white;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    left: 195px;
+
+    height: 100px;
+    padding-top: 12px;
+    font-family: "canela deck trial"
+}
+
+.par span {
+    padding-right: 30px;
+    padding-bottom: 1px;
+
+}
+
+.par1 {
+    /* text-align: center; */
+    height: 5px;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    Width: 15px;
+    Height: 31px;
+    /* left: 43.12%;
+    right: 55.83%;
+    top: 12.53%;
+    bottom: 86.98%; */
+
+}
+
+.par12 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: black;
+    padding-left: 14px;
+    margin: .5rem;
+    height: 10px;
+    padding-bottom: 1px;
+    font-family: "canela deck trial"
+}
+
+.Booknow {
+    color: #ffffff;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: #7B7B3B;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    transition: 0.1s;
+
+
+
+
+}
+
+.Booknow:hover {
+    background: blue;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .par1 {
+        /* text-align: center; */
+        height: 5px;
+        font-weight: -123;
+        display: flex;
+        flex-direction: row;
+        margin-left: 199px;
+        Width: 15px;
+        Height: 16px;
+    }
+
+    .par span {
+        padding-right: 6px;
+        /* padding-bottom: 1px; */
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .par {
+        color: black;
+        background-color: white;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        margin-left: 165px;
+        left: 195px;
+        height: 100px;
+        padding-top: 30px;
+        font-family: "canela deck trial";
+    }
+
+    .par1 {
+        /* text-align: center; */
+        display: flex;
+        flex-direction: row;
+        margin-left: 315px;
+        margin-top: -20px;
+        Width: 15px;
+        Height: 30px;
+    }
+
+    .par span {
+        padding-right: 6px;
+        /* padding-bottom: 1px; */
+    }
+
+    .par12 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        color: black;
+        padding-left: 14px;
+        /* margin: 0.5rem; */
+        margin-top: -30px;
+        margin-right: 155px;
+        height: 10px;
+        padding-bottom: 1px;
+        font-family: "canela deck trial";
+    }
+    .Booknow {
+        color: #ffffff;
+        width: 95px;
+        height: 30px;
+        border: 1px solid #FFFFFF;
+        border-radius: 30px;
+        background-color: #7B7B3B;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        transition: 0.1s;
+    }
+}

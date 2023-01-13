@@ -1,0 +1,646 @@
+@import url('https://fonts.cdnfonts.com/css/din-alternate');
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+
+.package {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+.package1 {
+    padding: 0px 0px 20px 20px;
+    background-image: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%), url('../assets/images/Rectangle 11.svg');
+    width: 419px;
+    height: 499px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.package1:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s, filter 3s linear;
+}
+.package2 {
+    padding: 0px 0px 20px 20px;
+    background-image: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%), url('../assets/images/Rectangle 14.svg');    width: 419px;
+    height: 499px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+.package2:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s, filter 3s linear;
+}
+.package3 {
+    padding: 0px 0px 20px 20px;
+    background-image: linear-gradient(0deg, #114141 5.5%, rgba(17, 65, 65, 0) 95.55%), url('../assets/images/Rectangle 17.svg');    width: 419px;
+    height: 499px;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+
+}
+.package3:hover {
+    transform: scale(1.07);
+    transition: transform 0.7s, filter 3s linear;
+}
+.package-date {
+    border: 1px solid #7B7B3B;
+    border-radius: 1.5px;
+    width: 200px;
+    height: 26px;
+    background-color: #7B7B3B;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.package-t1 {
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 130px;
+    color: #FFFFFF;
+}
+.package-l1 {
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 100px;
+}
+.package-r1 {
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 70px;
+}
+.package-des {
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    width: 298px;
+    height: 80px;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 157.5%;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 65px;
+    display: none;
+}
+.package-btn {
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: Transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+body:has(.package1:hover) .package1 .package-btn{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package1:hover) .package1 .package-des{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package1:hover) .package1 .package-t1{
+    bottom: 200px;
+}
+body:has(.package1:hover) .package1 .package-l1{
+    bottom: 170px;
+}
+body:has(.package1:hover) .package1 .package-r1{
+    bottom: 150px;
+}
+body:has(.package2:hover) .package2 .package-btn{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package2:hover) .package2 .package-des{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package2:hover) .package2 .package-t1{
+    bottom: 200px;
+}
+body:has(.package2:hover) .package2 .package-l1{
+    bottom: 170px;
+}
+body:has(.package2:hover) .package2 .package-r1{
+    bottom: 150px;
+}
+body:has(.package3:hover) .package3 .package-btn{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package3:hover) .package3 .package-des{
+    display: block;
+    transition: transform 0.7s, filter 3s linear;
+}
+body:has(.package3:hover) .package3 .package-t1{
+    bottom: 200px;
+
+}
+body:has(.package3:hover) .package3 .package-l1{
+    bottom: 170px;
+}
+body:has(.package3:hover) .package3 .package-r1{
+    bottom: 150px;
+}
+@media only screen and (min-width: 768px) and (max-width: 899px){
+    .package {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        scale: 0.9;
+    } 
+    .package1 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 274px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package2 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 274px;
+        background-size: contain;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package3 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 274px;
+        background-size: contain;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package-date {
+        border: 1px solid #7B7B3B;
+        border-radius: 1.5px;
+        width: 147px;
+        height: 16px;
+        background-color: #7B7B3B;
+        color: white;
+        border-radius: 7px;
+        position: absolute;
+        padding: 5px 5px;
+        right: 10px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .package-t1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 72px;
+        color: #FFFFFF;
+    }
+    .package-l1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 54px;
+    }
+    .package-r1 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 32px;
+    }
+    .package-des {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        width: 200px;
+        height: 80px;
+        font-weight: 100;
+        font-size: 11px;
+        line-height: 157.5%;
+        text-transform: lowercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 65px;
+        display: none;
+    }
+    .package-btn {
+        color: #fff;
+        width: 84px;
+        height: 20px;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        background-color: Transparent;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        display: none;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
+    body:has(.package1:hover) .package1 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package2:hover) .package2 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package3:hover) .package3 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package1:hover) .package1 .package-l1 {
+        bottom: 179px;
+        font-size: 11px;
+    }
+    body:has(.package2:hover) .package2 .package-l1 {
+        bottom: 179px;
+        font-size: 11px;
+    }
+    body:has(.package3:hover) .package3 .package-l1 {
+        bottom: 179px;
+        font-size: 11px;
+    }
+    body:has(.package1:hover) .package1 .package-r1 {
+        bottom: 160px;
+        font-size: 11px;
+    }
+    body:has(.package2:hover) .package2 .package-r1 {
+        bottom: 160px;
+        font-size: 11px;
+    }
+    body:has(.package3:hover) .package3 .package-r1 {
+        bottom: 160px;
+        font-size: 11px;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+    .package {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+        scale: 0.9;
+    }
+    .package1 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 338px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package2 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 338px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package3 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 338px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package-date {
+        border: 1px solid #7B7B3B;
+        border-radius: 1.5px;
+        width: 148px;
+        height: 16px;
+        background-color: #7B7B3B;
+        color: white;
+        border-radius: 7px;
+        position: absolute;
+        right: 10px;
+        padding: 5px 5px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .package-r1 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 36px;
+    }
+    .package-l1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 60px;
+    }
+    .package-t1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 81px;
+        color: #FFFFFF;
+    }
+    body:has(.package1:hover) .package1 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package2:hover) .package2 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package3:hover) .package3 .package-t1 {
+        bottom: 190px;
+    }
+    body:has(.package1:hover) .package1 .package-l1 {
+        bottom: 175px;
+        font-size: 12px;
+    }
+    body:has(.package2:hover) .package2 .package-l1 {
+        bottom: 175px;
+        font-size: 12px;
+    }
+    body:has(.package3:hover) .package3 .package-l1 {
+        bottom: 175px;
+        font-size: 12px;
+    }
+    body:has(.package1:hover) .package1 .package-r1 {
+        bottom: 156px;
+        font-size: 12px;
+    }
+    body:has(.package2:hover) .package2 .package-r1 {
+        bottom: 156px;
+        font-size: 12px;
+    }
+    body:has(.package3:hover) .package3 .package-r1 {
+        bottom: 156px;
+        font-size: 12px;
+    }
+    .package-des {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        width: 235px;
+        height: 81px;
+        font-weight: 100;
+        font-size: 11px;
+        line-height: 157.5%;
+        text-transform: lowercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 65px;
+        display: none;
+    }
+    .package-btn {
+        color: #fff;
+        width: 111px;
+        height: 23px;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        background-color: Transparent;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        display: none;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .package {
+        scale: 0.9;
+    }
+    .package-r1 {
+        bottom: 60px;
+    }
+    .package-l1 {
+        bottom: 88px;
+    }
+    .package-t1 {
+        bottom: 114px;
+    }
+    .package-btn {
+        width: 107px;
+        height: 20px;
+        padding: 5px 5px;
+    }
+    body:has(.package1:hover) .package1 .package-l1 {
+        bottom: 179px;
+    }
+    body:has(.package1:hover) .package1 .package-r1 {
+        bottom: 155px;
+    }
+    body:has(.package2:hover) .package2 .package-l1 {
+        bottom: 179px;
+    }
+    body:has(.package2:hover) .package2 .package-r1 {
+        bottom: 155px;
+    }
+    body:has(.package3:hover) .package3 .package-l1 {
+        bottom: 179px;
+    }
+    body:has(.package3:hover) .package3 .package-r1 {
+        bottom: 155px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .package {
+        scale: 0.9;
+        gap: 9px;
+    }
+    .package1 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 270px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package2 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 270px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package3 {
+        padding: 0px 0px 20px 20px;
+        width: 419px;
+        height: 270px;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    .package-date {
+        border: 1px solid #7B7B3B;
+        border-radius: 1.5px;
+        width: 111px;
+        height: 12px;
+        background-color: #7B7B3B;
+        color: white;
+        border-radius: 7px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 9px;
+        padding: 5px 5px;
+    }
+    .package-r1 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 24px;
+    }
+    .package-l1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 45px;
+    }
+    .package-t1 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 31px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 62px;
+        color: #FFFFFF;
+    }
+    body:has(.package1:hover) .package1 .package-t1 {
+        bottom: 185px;
+    }
+    body:has(.package2:hover) .package2 .package-t1 {
+        bottom: 185px;
+    }
+    body:has(.package3:hover) .package3 .package-t1 {
+        bottom: 185px;
+    }
+    body:has(.package1:hover) .package1 .package-l1 {
+        bottom: 176px;
+        font-size: 9px;
+    }
+    body:has(.package2:hover) .package2 .package-l1 {
+        bottom: 176px;
+        font-size: 9px;
+    }
+    body:has(.package3:hover) .package3 .package-l1 {
+        bottom: 176px;
+        font-size: 9px;
+    }
+    body:has(.package1:hover) .package1 .package-r1 {
+        bottom: 160px;
+        font-size: 9px;
+    }
+    body:has(.package2:hover) .package2 .package-r1 {
+        bottom: 160px;
+        font-size: 9px;
+    }
+    body:has(.package3:hover) .package3 .package-r1 {
+        bottom: 160px;
+        font-size: 9px;
+    }
+    .package-des {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        width: 133px;
+        height: 80px;
+        font-weight: 100;
+        font-size: 9px;
+        line-height: 157.5%;
+        text-transform: lowercase;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 65px;
+        display: none;
+    }
+    .package-btn {
+        color: #fff;
+        width: 76px;
+        height: 14px;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        background-color: Transparent;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 10px;
+        position: absolute;
+        bottom: 17px;
+        text-align: center;
+        display: none;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
+}

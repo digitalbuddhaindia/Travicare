@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.homenavbar {
+    /* background-image: url(../assets/images/Rectangle\ 2.svg);
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 751px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.bar {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.bar li {
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.bar2 {
+
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.bar2 li {
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.homeimag {
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+
+}
+
+.bok {
+    color: #ffffff;
+    width: 94px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: Transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+.bok:hover{
+    background-color:green;
+    color:white;
+  }
+.bar a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bar2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text {
+    position: absolute;
+    width: 50%;
+    height: 68px;
+    left: 305px;
+    top: 309px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    text-align: center;
+    text-transform: lowercase;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    /* identical to box height */
+
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.text1 {
+    /* position: absolute;
+    width: 449px;
+    height: 52px;
+    left: 495px;
+    top: 30%;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-left: 500px;
+    color: #FFFFFF; */
+    position: absolute;
+    width: 449px;
+    height: 52px;
+    left: 495px;
+    top: 411px;
+    padding-top: 20px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+.tex {
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 635px;
+    top: 50%;
+    padding-left: 50px;
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 768px){  
+    .text {
+        left: 37px;
+        top: 100px;
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        text-align: center;
+        text-transform: lowercase;
+        /* padding-left: 30px; */
+        /* font-weight: 400; */
+        /* font-size: 50px; */
+        /* line-height: 68px; */
+        /* text-transform: lowercase; */
+        color: #FFFFFF;
+    }
+    .ima1 {
+        width: 100px;
+        margin-left: 16px;
+    }
+    .te {
+        width: 402px;
+    }
+   .text1 {
+    position: absolute;
+    width: 449px;
+    height: 52px;
+    left: 43px;
+    top: 136px;
+    padding-top: 20px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.tex {
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 136px;
+    top: 2%;
+    padding-left: 50px;
+    margin-top: 200px;
+}
+   }
+
+   @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .te {
+        width: 620px;
+    }
+    .text1 {
+        position: absolute;
+        width: 449px;
+        height: 52px;
+        left: 400px;
+        margin-top: -55px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFF;
+    }
+    .tex {
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 500px;
+        top: 47%;
+        margin-top: 200px;
+    }
+    .ima1 {
+        margin-top: 15px;
+    }
+   }
