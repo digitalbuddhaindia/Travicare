@@ -1,0 +1,50 @@
+.stay-social-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.stay-social-subtext {
+    font-family: Canela Text Trial;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.stay-social-title {
+    font-size: 39px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 9rem;
+}
+.conteudo {
+    width: 90%;
+}
+
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    scroll-snap-align: start;
+    border-radius: 10px;
+    min-height: 245px;
+    min-width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

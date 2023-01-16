@@ -1,0 +1,389 @@
+@import url("https://fonts.cdnfonts.com/css/canela-text-trial");
+@import url("https://fonts.cdnfonts.com/css/din-alternate");
+
+.blog-title {
+  height: 41px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #114141;
+  margin: 0px;
+  padding: 20px 0px;
+  padding-top: 800px;
+}
+.blog-images-1 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+ 
+
+}
+
+.blog-images-2 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+}
+.blog-images-3 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+}
+.blog-title-caption {
+  width: 858px;
+  height: 50px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 157.5%;
+  text-align: center;
+  text-transform: lowercase;
+  color: #666666;
+  padding-left: 342px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 197px;
+  margin-top: 62px;
+  gap: 30px;
+  height: 400px;
+  scale: 1.1;
+}
+
+.blog-cards {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+   
+}
+body:has(.blog-images-1:hover) .blog-images-1{
+  display: block;
+  transition: transform 0.7s, filter 3s linear;
+}
+ body:has(.blog-images-2 :hover) .blog-images-2  {
+  display: block;
+  transition: transform 0.7s, filter 3s linear;
+}
+
+body:has(.blog-images-3 :hover) .blog-images-3 {
+  bottom: 200px;
+} 
+
+.blog-cards img {
+  width: 353px;
+  height: 281px;
+  
+}
+
+.blog-card-caption p {
+  flex-direction: column;
+  display: flex;
+  width: 150px;
+  height: 25px;
+  align-items: center;
+  margin: 0px;
+}
+
+.blog-cards p {
+  width: 308px;
+  height: 75px;
+  margin: 0px;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 124.5%;
+  color: #666666;
+  margin: 0px;
+  align-items: flex-start;
+}
+
+.blog-credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2px 0px;
+  width: 289px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-credits p {
+  font-family: "DIN Alternate";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #114141;
+  height: 15px;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .blog-title {
+    width: 536px;
+    height: 41px;
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #114141;
+    margin: 0px;
+    padding: 20px 0px;
+    padding-top: 800px;
+    padding-left: 176px;
+  }
+  .blog-title-caption {
+    width: 557px;
+    height: 50px;
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #666666;
+    margin: 0px;
+    padding: 10px 0px 60px 0px;
+    padding-left: 150px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .blogs {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    height: 400px;
+    justify-content: space-evenly;
+    scale: 0.8;
+  }
+  .blog-title {
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #114141;
+  }
+  .blog-title-caption {
+    width: auto;
+    height: 50px;
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #666666;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .blog-title {
+    height: 41px;
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #114141;
+    margin: 0px;
+  }
+  .blog-title-caption {
+    width: 973px;
+    height: 50px;
+    font-family: "Canela Text Trial";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 157.5%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #666666;
+    padding: 10px 0px 60px 0px;
+    padding-left: 150px;
+  }
+  .blogs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 400px;
+    margin-top: -20px;
+    scale: 1;
+  }
+}
+.from-the-blog {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+}
+.blog-description {
+  text-align: center;
+  font-family: "Canela Text Trial";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 157.5%;
+  color: #666666;
+}
+.blog-images {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.blog-main {
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+}
+.blog-images-1 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+  transition:all 1.1s;
+
+}
+
+.blog-images-2 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+}
+.blog-images-3 {
+  width: 343px;
+  height: 281px;
+  left: 172px;
+  top: 4479px;
+  border-radius: 20px;
+}
+.blog-images-1-text {
+  font-family: DIN Alternate;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-images-2-text {
+  font-family: DIN Alternate;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-images-3-text {
+  font-family: DIN Alternate;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-images-1-para {
+  width: 300px;
+  text-align: left;
+  margin-left: 28px;
+  color: #666666;
+}
+.blog-images-2-para {
+  width: 300px;
+  text-align: left;
+  margin-left: 28px;
+  color: #666666;
+}
+.blog-images-3-para {
+  width: 300px;
+  text-align: left;
+  margin-left: 28px;
+  color: #666666;
+}
+.blog-paragraph {
+  width: 800px;
+  margin-left: 370px;
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .blog-paragraph {
+    width: 500px;
+    margin-left: 130px;
+  }
+  .blog-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    scale: 0.7;
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .blog-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    scale: 0.9;
+    gap: 20px;
+  }
+  .blog-paragraph {
+    width: 880px;
+    margin-left: 147px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .blog-paragraph {
+    width: 880px;
+    margin-left: 260px;
+  }
+}
+.blog-text {
+  padding-top: 3rem;
+}

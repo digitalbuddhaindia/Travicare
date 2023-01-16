@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+.unique-component{
+    width: 100%;
+    padding-top: 5rem;
+}
+.unique-component .image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.unique-component .image-box img {
+    filter: brightness(50%);
+}
+.unique-title {
+    font-family: Canela Text Trial;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 25%;
+    width: 407px;
+    height: 41px;
+    color: #ffffffc8;
+    position: absolute;
+}
+.unique-caption {
+    position: absolute;
+    width: 858px;
+    top: 40%;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFFc8;
+}
+.view-btn {
+    border-radius: 60px;
+    font-family: Arial;
+    top: 70%;
+    color: #ffffffc8;
+    font-size: 20px;
+    background: #0a131a00;
+    padding: 9px 20px 10px 20px;
+    border: solid #ffffffc8 2px;
+    text-decoration: none;
+    position: absolute;
+   
+}
+
+.luxury-stay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.luxury-title {
+    margin: 50px 0px 0px 0px ;
+    width: 483px;
+    height: 53px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    text-align: center;
+    color: #7B7B3B;
+}
+.luxury-caption {
+    margin: 30px 0px 0px 0px ;
+    width: 858px;
+    height: 50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    color: #666666;
+}
+.unique-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0px 40px 0px ;
+}
+@media only screen and (max-width: 767px){  
+    
+    .unique-component .image-box {
+        width: 11px;
+        height: 203px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+        padding-left: 235px;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 394px;
+        height: -15px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+    .unique-caption {
+        position: absolute;
+        width: 433px;
+        top: 40%;
+        height: 92px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 10px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+        margin-top: 22px;
+    }
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        width: 110px;
+        color: #ffffffc8;
+        font-size: -44px;
+        background: #0a131a00;
+        padding: 4px -16px 10px 20px;
+        border: solid #ffffffc8 1px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+        font-size: 10px;
+        font-size: -38px;
+    }
+    luxury-title {
+        margin: 50px 0px 0px 0px;
+        width: 437px;
+        height: 53px;
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        color: #7B7B3B;
+    }
+    .luxury-caption {
+        margin: 30px 0px 0px 0px;
+        width: 468px;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        text-align: center;
+        font-weight: 100;
+        font-size: 10px;
+        color: #666666;
+    }
+    .unique-logos {
+        width: 488px;
+        height: 29px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 40px 0px 40px 0px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+    .unique-component .image-box {
+        width: 788px;
+        height: 334px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        background-size: contain;
+        text-align: center;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 657px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 12px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+    .luxury-caption {
+        margin: 30px 0px 0px 0px;
+        width: 768px;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        text-align: center;
+        font-weight: 100;
+        font-size: 15px;
+        color: #666666;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1119px){
+
+    .unique-component .image-box {
+        width: 910px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 637px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+}
+
+@media only screen and (min-width: 1120px) and (max-width: 1199px){
+    .unique-component .image-box {
+        width: 1119px;
+        height: 463px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+    .unique-caption {
+        position: absolute;
+        width: 720px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+
+    .unique-component .image-box {
+        
+        height: 472px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+
+    .unique-caption {
+        position: absolute;
+        width: 812px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+    .view-btn {
+        border-radius: 60px;
+        font-family: Arial;
+        top: 70%;
+        color: #ffffffc8;
+        font-size: 16px;
+        background: #0a131a00;
+        padding: 9px 20px 10px 20px;
+        border: solid #ffffffc8 2px;
+        text-decoration: none;
+        position: absolute;
+        transition: 0.8s;
+    }
+    .footer-line {
+        width: 1166px;
+        height: 0px;
+        left: 60px;
+        top: 6050px;
+        margin: 44px 33px;
+        border: 1px solid #FFFFFF;
+    }
+    .footer-social {
+        width: 532px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 146.41%;
+        text-transform: uppercase;
+        margin-left: 31px;
+        color: #FFFFFF;
+    }
+    .footer-div4 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 146.41%;
+        margin-left: 25px;
+        margin-top: 80px;
+        letter-spacing: 0.565em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1709px){
+    .unique-component .image-box {
+        width: 1356px;
+        height: 532px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    .unique-title {
+        font-family: Canela Text Trial;
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 25%;
+        width: 407px;
+        height: 41px;
+        color: #ffffffc8;
+        position: absolute;
+    }
+    .unique-caption {
+        position: absolute;
+        width: 858px;
+        top: 40%;
+        height: 50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFFc8;
+    }
+}
