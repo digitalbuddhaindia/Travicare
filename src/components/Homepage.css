@@ -1,0 +1,541 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Halimun';
+    src: url('../assets/fonts/Halimun.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* html {
+    scroll-behavior: smooth;
+
+} */
+
+.img-res {
+    width: 238px;
+    height: 100px;
+}
+.mouse {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    /* position: absolute; */
+    z-index: 500;
+    -webkit-animation: vertical 3s ease infinite;
+    animation: vertical 3s ease infinite;
+}
+@keyframes vertical {
+    0%,
+    60%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    20% {
+        -webkit-transform: translateY(-5px);
+    }
+    40% {
+        -webkit-transform: translateY(20px);
+    }
+}
+@-webkit-keyframes vertical {
+    0%,
+    60%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    20% {
+        -webkit-transform: translateY(-5px);
+    }
+    40% {
+        -webkit-transform: translateY(20px);
+    }
+}
+@-moz-keyframes vertical {
+    0%,
+    60%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+    }
+    20% {
+        -moz-transform: translateY(-5px);
+    }
+    40% {
+        -moz-transform: translateY(20px);
+    }
+}
+@-ms-keyframes vertical {
+    0%,
+    60%,
+    80%,
+    100% {
+        -ms-transform: translateY(0);
+    }
+    20% {
+        -ms-transform: translateY(-5px);
+    }
+    40% {
+        -ms-transform: translateY(20px);
+    }
+}
+
+.homenavbar1 {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.stick-homenavbar1 {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    transition: 0.8s;
+
+}
+
+.stick-homenavbar1 .navleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30%;
+
+}
+
+.stick-homenavbar1 .navleft .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.stick-homenavbar1 .navright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21%;
+}
+
+.stick-homenavbar1 .trav_logo1 {
+    margin-top: 10px;
+
+}
+
+.stick-homenavbar1 .navright .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.stick-homenavbar1 .booknow {
+    padding: 5px 10px 5px 10px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: #7B7B3B;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.homenavbar1 .navleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 7px;
+    gap: 30%;
+}
+
+.homenavbar1 .navleft .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.homenavbar1 .navright {
+    display: flex;
+    flex-direction: row;
+    margin-left: -12px;
+    align-items: center;
+    gap: 22%;
+}
+
+.homenavbar1 .trav_logo1 {
+    margin-top: 10px;
+
+}
+
+.homenavbar1 .navright .tab {
+    list-style: none;
+    font-family: 'Canela Deck Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    /* padding: 5px 10px; */
+}
+
+.home-backgroundimage {
+    position: relative;
+    width: 100%;
+    filter: brightness(40%);
+
+}
+
+
+.booknow {
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: Transparent;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.text-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+.text1 {
+    text-align: center;
+    font-family: 'Halimun';
+    width: 1887px;
+    height: 72px;
+    left: 305px;
+    top: 309px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    /* position: absolute; */
+    width: 100%;
+    height: 52px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-style: normal; */
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.scroll {
+    /* position: absolute; */
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.shoopar-nav {
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+
+}
+
+.imglogo {
+    width: 828px;
+    height: 68px;
+}
+
+.imgscroll {
+    width: 170px;
+    height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .homenavbar1 .navright .tab {
+        list-style: none;
+        font-family: 'Canela Deck Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        text-align: center;
+        margin-left: -23px;
+        color: #FFFFFF;
+        /* padding: 5px 10px; */
+    }
+
+    .stick-homenavbar1 .navright .tab {
+        list-style: none;
+        font-family: 'Canela Deck Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .imgscroll {
+        width: 165px;
+        height: 58px;
+        margin-top: -31px;
+    }
+
+
+    .homenavbar1 .navleft .tab {
+        list-style: none;
+        font-family: 'Canela Deck Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .homenavbar1 .navleft {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 34px;
+        gap: 20%;
+    }
+    .stick-homenavbar1 .navleft {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12%;
+    }
+
+    .homenavbar1 {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -71px;
+        margin-top: 20px;
+    }
+
+    .homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 93px;
+        gap: 56%;
+    }
+
+    .text1 {
+        width: 81%;
+        height: 11px;
+        font-size: 16px;
+        margin-left: 49px;
+        text-align: center;
+        margin-top: -243px;
+    }
+
+    .imglogo {
+        width: 471px;
+        height: 26px;
+    }
+
+    .text2 {
+        /* position: absolute; */
+        width: 100%;
+        height: 6px;
+        padding-top: -1px;
+        font-family: 'Montserrat', sans-serif;
+        /* font-style: normal; */
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFF;
+    }
+
+    .img-res {
+        width: 69px;
+        height: 16px;
+        margin-right: -21px;
+    }
+
+    .stick-homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+
+    .img-res {
+        width: 99px;
+        height: 30px;
+        margin-left: 16px;
+        /* align-items: center; */
+    }
+
+    .stick-homenavbar1 .navright .tab {
+        list-style: none;
+        font-family: 'Canela Deck Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .homenavbar1 .navleft {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 22%;
+        margin-left: -90px;
+    }
+
+    .imglogo {
+        width: 4531pxpx;
+        width: 729px;
+        margin-top: -105px;
+        height: 140px;
+        margin-left: 10px;
+        padding-top: -41px;
+        /* margin-bottom: -7px; */
+    }
+
+    .text2 {
+        /* position: absolute; */
+        width: 100%;
+        height: -31px;
+        height: -149px;
+        padding-top: -40px;
+        font-family: 'Montserrat', sans-serif;
+        /* font-style: normal; */
+        /* margin-bottom: 115px; */
+        margin-top: -58px;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 13px;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFF;
+    }
+
+    .text-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 29%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+
+    .img-res {
+        width: 139px;
+        height: 100px;
+    }
+
+    .text-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 39%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+
+    .img-res {
+        width: 168px;
+        height: 100px;
+    }
+
+    .text1 {
+        text-align: center;
+        font-family: 'Halimun';
+        width: 1501px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 2px;
+        color: #FFFFFF;
+
+
+
+}
+}
+@media only screen and (min-width: 1441px) and (max-width: 1709px) {
+    .img-res {
+        width: 204px;
+        height: 100px;
+    }
+  
+
+
+
+}
