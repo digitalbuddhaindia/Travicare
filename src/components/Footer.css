@@ -1,0 +1,537 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+@import url('https://fonts.cdnfonts.com/css/din-alternate');
+
+.footer-container {
+    width: 100%;
+    height: 854px;
+    padding-top: 50px;
+    margin-top: 311px;
+    overflow: hidden;
+    background-color: hsl(180, 59%, 16%);
+    margin-top: 150px;
+}
+.footer-div1 {
+    width: 1502px;
+    height: 183px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+
+.footer-div2 {
+    margin-top: 130px;
+    justify-content: space-around;
+    font-family: 'DIN Alternate';
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: -109px;
+    line-height: 146.41%;
+    color: #FFFFFF;
+}
+.footercomponenttit {
+    width: 308px;
+    height: 23px;
+    
+    align-items: center;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 124.5%;
+    /* or 24px */
+    padding-bottom: -1px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-footercomponents {
+
+    right: 56.74%;
+    top: 94.82%;
+
+    padding-left: 400px;
+    padding-bottom: 100px;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.41%;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.footercomponenttitl {
+    width: 308px;
+    height: 23px;
+   
+    padding-top: -50px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 124.5%;
+
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.footer-title {
+    width: 717px;
+    height: 183px;
+    left: 60px;
+    top: 5632px;
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-comp {
+
+
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.41%;
+    margin-top: 50px;
+
+
+    color: #FFFFFF;
+
+}
+
+.footer-iconspack {
+    left: 66.74%;
+    right: 21.53%;
+    top: 94.82%;
+    bottom: 4.45%;
+
+    padding-top: -1px;
+    padding-left: 500px;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.41%;
+   
+
+
+    color: #FFFFFF;
+
+}
+
+.footer-footercompo {
+    /* left: 4.17%;
+    right: 65.9%;
+    top: 97.16%;
+    bottom: 2.47%; */
+
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.41%;
+    
+    padding: 0px 20px 0px 0px;
+    list-style: none;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.footer-div4 {
+    
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 146.41%;
+    margin-left: 90px;
+    margin-top: 150px;
+    letter-spacing: 0.565em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footercomp {
+    font-family: 'Canela Text Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 61px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-line {
+    width: 100%;
+    height: 0px;
+    left: 60px;
+    top: 6050px;
+    margin: 40px 100px;
+    border: 1px solid #FFFFFF;
+}
+.footer-social {
+    width: 539px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 146.41%;
+    
+
+    text-transform: uppercase;
+    margin-left: 95px;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px){  
+
+    .footer-title {
+        width: 173px;
+        height: 475px;
+        /* left: 60px; */
+        /* top: 5632px; */
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        margin-left: -75px;
+        font-weight: 400;
+        font-size: 15px;
+        /* line-height: 61px; */
+        margin-left: -43px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-div1 {
+        width: 492px;
+        height: 183px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        justify-content: space-between;
+    }
+    .footercomponenttit {
+        width: 200px;
+        height: 23px;
+        align-items: center;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 124.5%;
+        padding-bottom: -1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footercomponenttitl {
+        width: 180px;
+        height: 23px;
+        padding-top: -50px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 124.5%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-container {
+        width: 100%;
+        height: 728px;
+        padding-top: 33px;
+        margin-top: 500px;
+        background-color: #114141;
+    }
+    .footer-div2 {
+        margin-top: 109px;
+        width: 0px;
+        justify-content: space-around;
+        font-family: 'DIN Alternate';
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6px;
+        line-height: 146.41%;
+        color: #FFFFFF;
+        margin-left: 266px;
+        /* padding-left: 670px; */
+    }
+  
+    .footer-comp {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 146.41%;
+        margin-top: 50px;
+        color: #FFFFFF;
+        margin-right: 136px;
+    }
+   
+    .footer-line {
+        height: 0px;
+        /* left: 60px; */
+        /* top: 6050px; */
+        margin: 38px 8px;
+        border: 1px solid #FFFFFF;
+    }
+
+    .footer-social {
+        width: 430px;
+        height: 3px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 146.41%;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+    .footer-div4 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5px;
+        line-height: 146.41%;
+        margin-left: 26px;
+        margin-top: 122px;
+        letter-spacing: 0.565em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 899px){
+
+    .footer-div2 {
+        margin-top: 130px;
+        justify-content: space-around;
+        font-family: 'DIN Alternate';
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 58px;
+        line-height: 146.41%;
+        color: #FFFFFF;
+    }
+    .footer-title {
+        width: 457px;
+        height: 183px;
+        left: 60px;
+        top: 5632px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        margin-left: -95px;
+        font-size: 38px;
+        padding-right: -18px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-div1 {
+        width: 627px;
+        height: 183px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+        justify-content: space-between;
+    }
+    .footer-line {
+        height: 0px;
+        left: 60px;
+        top: 6050px;
+        margin: 34px 14px;
+        border: 1px solid #FFFFFF;
+    }
+    .footer-social {
+        width: 539px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 146.41%;
+        text-transform: uppercase;
+        margin-left: 19px;
+        color: #FFFFFF;
+    }
+    .footer-div4 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 146.41%;
+        margin-left: 17px;
+        margin-top: 80px;
+        letter-spacing: 0.565em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+
+
+
+    .footer-title {
+        width: 563px;
+        height: 183px;
+        left: 60px;
+        top: 5632px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        margin-left: -124px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-div1 {
+        width: 692px;
+        height: 183px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+        justify-content: space-between;
+    }
+    .footer-div2 {
+        margin-top: 130px;
+        justify-content: space-around;
+        font-family: 'DIN Alternate';
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        margin-left: -2px;
+        line-height: 146.41%;
+        color: #FFFFFF;
+    }
+    .footer-line {
+        height: 0px;
+        left: 60px;
+        top: 6050px;
+        margin: 46px 100px;
+        margin-left: 10px;
+        border: 1px solid #FFFFFF;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    
+    .footer-div1 {
+        width: 1093px;
+        height: 183px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 22px;
+        justify-content: space-between;
+    }
+    .footer-div2 {
+        margin-top: 130px;
+        justify-content: space-around;
+        font-family: 'DIN Alternate';
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        margin-left: -60px;
+        line-height: 146.41%;
+        color: #FFFFFF;
+    }
+    .footer-line {
+        height: 0px;
+        left: 60px;
+        top: 6050px;
+        margin: 40px 23px;
+        border: 1px solid #FFFFFF;
+    }
+    .footer-social {
+        width: 539px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 146.41%;
+        text-transform: uppercase;
+        margin-left: 39px;
+        color: #FFFFFF;
+    }
+    .footer-div4 {
+        font-family: 'DIN Alternate';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 146.41%;
+        margin-left: 34px;
+        margin-top: 80px;
+        letter-spacing: 0.565em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+}
+@media only screen and (min-width: 1441px) and (max-width: 1709px){
+
+    .footer-title {
+        width: 691px;
+        height: 183px;
+        left: 60px;
+        top: 5632px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 59px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer-div1 {
+        width: 1116px;
+        height: 183px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+        justify-content: space-between;
+    }
+    .footer-div2 {
+        margin-top: 130px;
+        justify-content: space-around;
+        font-family: 'DIN Alternate';
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 14px;
+        line-height: 146.41%;
+        color: #FFFFFF;
+    }
+}
