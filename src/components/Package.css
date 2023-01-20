@@ -227,12 +227,12 @@
 
 body:has(.package1:hover) .package1 .package-btn {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100s, filter 200s linear;
 }
 
 body:has(.package1:hover) .package1 .package-des {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100s, filter 200s linear;
 }
 
 body:has(.package1:hover) .package1 .package-t1 {
@@ -249,12 +249,12 @@ body:has(.package1:hover) .package1 .package-r1 {
 
 body:has(.package2:hover) .package2 .package-btn {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100s, filter 200s linear;
 }
 
 body:has(.package2:hover) .package2 .package-des {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100s, filter 200s linear;
 }
 
 body:has(.package2:hover) .package2 .package-t1 {
@@ -271,12 +271,12 @@ body:has(.package2:hover) .package2 .package-r1 {
 
 body:has(.package3:hover) .package3 .package-btn {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100s, filter 200s linear;
 }
 
 body:has(.package3:hover) .package3 .package-des {
     display: block;
-    transition: transform 0.7s, filter 3s linear;
+    transition: transform 100ss, filter 200s linear;
 }
 
 body:has(.package3:hover) .package3 .package-t1 {
