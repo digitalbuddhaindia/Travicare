@@ -1,0 +1,274 @@
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
+
+
+.scroll-clean-minimal {
+    overflow-x: scroll;
+    overflow: hidden;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    float: left;
+    width: 93%;
+    padding: 0;
+}
+
+.img-drag {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+
+.clean-minimal-card {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 771px;
+    width: 472px;
+}
+
+.clean-minimal {
+    margin-left: -6px;
+    height: 52px;
+    width: 158px;
+    font-family: Canela Text Trial;
+    font-size: 27px;
+    font-weight: 400;
+    color: #114141;
+}
+
+
+.img-responsive {
+    width: 100%;
+    height: 491px;
+    margin-left: 317px;
+    margin-bottom: 67px;
+}
+
+.clean-minimal-card-p {
+    height: 100px;
+    width: 407px;
+    font-family: Canela Text Trial;
+    font-size: 16px;
+    font-weight: 100;
+    color: #666666b6;
+    margin-left: 238px;
+}
+
+.carousal-container {
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 16px;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+    .clean-minimal {
+        margin-left: -151px;
+        height: 52px;
+        width: 40px;
+        font-family: Canela Text Trial;
+        font-size: 15px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 98px;
+        width: 126px;
+        font-family: Canela Text Trial;
+        font-size: 6px;
+        font-weight: 100;
+        color: #666666;
+        margin-left: -62px;
+    }
+
+    .img-responsive {
+        width: 177px;
+        margin-left: -70px;
+        margin-bottom: 70px;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 30px;
+        float: left;
+        width: 786px;
+        padding: 0;
+    }
+
+    .img-responsive {
+        width: 332px;
+        margin-left: -37px;
+    }
+
+    .clean-minimal {
+        height: 52px;
+        width: 9px;
+        font-family: Canela Text Trial;
+        font-size: 20px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 219px;
+        font-family: Canela Text Trial;
+        font-size: 9px;
+        font-weight: 100;
+        margin-left: -21px;
+        color: #666666;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    .img-responsive {
+        width: 319px;
+        margin-left: -260px;
+    }
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: 80px;
+        margin-left: 30px;
+        width: 97%;
+        padding: 0;
+    }
+
+    .clean-minimal {
+        margin-left: -351px;
+        height: 52px;
+        width: -14px;
+        font-family: Canela Text Trial;
+        font-size: 20px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 226px;
+        font-family: Canela Text Trial;
+        font-size: 11px;
+        font-weight: 100;
+        padding-right: 291px;
+        color: #666666;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+    .img-responsive {
+        width: 100%;
+        height: 439px;
+        margin-left: -22px;
+    }
+
+    .img-drag {
+        position: absolute;
+        top: 86px;
+        left: 358px;
+    }
+
+
+    .clean-minimal {
+        margin-left: -171px;
+        height: 52px;
+        width: 158px;
+        font-family: Canela Text Trial;
+        font-size: 27px;
+        font-weight: 400;
+        color: #114141;
+    }
+
+    .clean-minimal-card-p {
+        height: 100px;
+        width: 330px;
+        font-family: Canela Text Trial;
+        font-size: 10px;
+        font-weight: 100;
+        color: #666666;
+        margin-left: 1px;
+        padding-left: -64px;
+
+    }
+
+    .scroll-clean-minimal {
+        overflow-x: scroll;
+        overflow: hidden;
+        display: flex;
+        margin-top: -15px;
+        margin-left: 52px;
+        float: left;
+        width: 93%;
+        padding: 0;
+    }
+
+    .clean-minimal-card {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 536px;
+        width: 472px;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+
+
+
+    .clean-minimal-card {
+        margin-left: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 921px;
+        width: 100%;
+    }
+
+
+
+}
+@media only screen and (min-width: 2001px) and (max-width: 2560px) {
+
+
+    .img-drag {
+        position: absolute;
+        top: 70px;
+        left: 1021px;
+    }
+}
