@@ -74,6 +74,16 @@
         width: 100%;
         padding: 0;
     }
+    .clean-minimal-card {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        height: 785px;
+        width: 190px;
+    }
 
     .clean-minimal {
         margin-left: -151px;
@@ -109,7 +119,7 @@
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 899px) {
+@media only screen and (min-width: 767px) and (max-width: 899px) {
 
     .scroll-clean-minimal {
         overflow-x: scroll;
@@ -123,13 +133,13 @@
     }
 
     .img-responsive {
-        width: 332px;
+        width: 280px;
         margin-left: -37px;
     }
 
     .clean-minimal {
         height: 52px;
-        width: 9px;
+        width: 200px;
         font-family: Canela Text Trial;
         font-size: 20px;
         font-weight: 400;
@@ -149,7 +159,8 @@
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
     .img-responsive {
-        width: 319px;
+        width: 266px;
+        height: 490px;
         margin-left: -260px;
     }
 
@@ -189,7 +200,7 @@
 
     .img-responsive {
         width: 100%;
-        height: 439px;
+        height: 374px;
         margin-left: -22px;
     }
 
@@ -353,9 +364,8 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 500) {
-    
-}
+@media only screen and (max-width: 500) {}
+
 .mob-cm-carousal-container .react-multi-carousel-list {
     /* height: 615px; */
     margin-left: 20px;
@@ -383,3 +393,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
  } */
+
+.drag-mouse {
+    background-image: url('../assets/images/drag.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    /* background-color: black; */
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+}

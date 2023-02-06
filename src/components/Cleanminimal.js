@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import '../components/Cleanminimal.css';
 import cardimage from '../assets/images/cleanimg1.svg';
-import drag from '../assets/images/drag.svg';
+import { drag } from '../assets/images/drag.svg';
 import cm2 from '../assets/images/cm2.svg';
 import Carousel from 'react-multi-carousel';
 import Arrow2 from '../assets/images/Arrow 2.svg';
@@ -15,6 +15,7 @@ import DragMouse from './DragMouse';
 
 // corousel
 function Cleanminimal() {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const screenSize = useContext(MobileContext);
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
@@ -62,6 +63,13 @@ function Cleanminimal() {
           : null}
       </div>
     );
+  };
+
+  const handleMouseMove = event => {
+    setPosition({
+      x: event.clientX,
+      y: event.clientY
+    });
   };
 
   return (
@@ -121,8 +129,8 @@ function Cleanminimal() {
           </Carousel>
         </div>)
         :
-        <div onMouseEnter={() => cursorChangeHandler()} onMouseLeave={() => cursorChangeHandler("hovered")} className='carousal-container'>
-          <DragMouse />
+        <div onMouseMove={handleMouseMove} className='carousal-container'>
+          <div style={{ top: position.y, left: position.x }} className= 'drag-mouse'></div>
           <Carousel
             responsive={responsive}
             arrows={false}
