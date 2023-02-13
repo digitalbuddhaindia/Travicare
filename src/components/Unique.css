@@ -117,17 +117,7 @@
 
 @media only screen and (max-width: 767px) {
 
-    .unique-component .image-box {
-        width: 11px;
-        height: 203px;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        text-align: center;
-        background-size: contain;
-        padding-left: 235px;
-    }
-
+   
     .unique-title {
         font-family: Canela Text Trial;
         font-size: 16px;
@@ -141,7 +131,16 @@
         color: #ffffffc8;
         position: absolute;
     }
+    .unique-component .image-box {
 
+        width: 777px;
+        height: 310px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
     .unique-caption {
         position: absolute;
         width: 433px;
@@ -174,7 +173,7 @@
         font-size: -38px;
     }
 
-    luxury-title {
+    .luxury-title {
         margin: 50px 0px 0px 0px;
         width: 437px;
         height: 6px;
@@ -188,7 +187,7 @@
 
     .luxury-caption {
         margin: 30px 0px 0px 0px;
-        width: 468px;
+        width: 300px;
         height: 50px;
         font-family: 'Canela Text Trial';
         font-style: normal;
@@ -207,12 +206,24 @@
         padding: 40px 0px 40px 0px;
     }
 }
+@media only screen and (min-width: 501px) and (max-width: 688px) {
+    .unique-component .image-box {
+        width: 100%;
+        height: 225px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background-size: contain;
+    }
 
-@media only screen and (min-width: 768px) and (max-width: 899px) {
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
     .unique-component .image-box {
         scale: 0.9;
-        width: 788px;
-        height: 334px;
+        width: 819px;
+        height: 322px;
         display: flex;
         justify-content: center;
         position: relative;
@@ -392,7 +403,7 @@
 
     .unique-component .image-box {
         width: 100%;
-        height: 581px;
+        height: 520px;
         display: flex;
         justify-content: center;
         position: relative;

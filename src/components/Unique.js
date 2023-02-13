@@ -74,9 +74,7 @@ function Unique() {
               ever since the 1500s, when an unknown printer took a galley
             </div>
           </div>
-          <div style={{ cursor }}
-    onMouseDown={() => setCursor('grabbing')}
-    onMouseUp={() => setCursor('grab')} className="unique-logos">
+          <div className="unique-logos">
             <img src={logo1} />
             <img src={logo2} />
             <img src={logo3} />

@@ -1,7 +1,6 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import '../components/Cleanminimal.css';
 import cardimage from '../assets/images/cleanimg1.svg';
-import drag from '../assets/images/drag.svg';
 import cm2 from '../assets/images/cm2.svg';
 import Carousel from 'react-multi-carousel';
 import Arrow2 from '../assets/images/Arrow 2.svg';
@@ -9,15 +8,14 @@ import Line5 from '../assets/images/Line5.svg';
 import Arrow1 from '../assets/images/Arrow 1.svg';
 import 'react-multi-carousel/lib/styles.css';
 import { MobileContext } from '../App';
-import { MouseContext } from '../App';
-import useMousePosition from './useMousePosition';
-import DragMouse from './DragMouse';
+// import { MouseContext } from '../App';
 
 // corousel
 function Cleanminimal() {
 
   const screenSize = useContext(MobileContext);
-  const { cursorType, cursorChangeHandler } = useContext(MouseContext);
+  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+  const [hover, setHover] = useState(false);
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -63,6 +61,38 @@ function Cleanminimal() {
       </div>
     );
   };
+
+  useEffect(() => {
+    document.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  });
+
+  const handleMouseMove = event => {
+    setCursorPos({ x: event.clientX, y: event.clientY });
+  };
+
+  const style = {
+    position: "fixed",
+    left: cursorPos.x,
+    top: cursorPos.y,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "contain",
+    borderRadius: "100%",
+    zIndex: 999,
+    pointerEvents: "none",
+    width: "50px",
+    height: "50px",
+    backgroundColor: "#7B7B3B",
+  };
+
+  const withoutCutsom = {
+    display: 'none',
+  }
 
   return (
     <div>
@@ -121,8 +151,13 @@ function Cleanminimal() {
           </Carousel>
         </div>)
         :
-        <div onMouseEnter={() => cursorChangeHandler()} onMouseLeave={() => cursorChangeHandler("hovered")} className='carousal-container'>
-          <DragMouse />
+        <div className='carousal-container' onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}>
+          <div style={hover ? style : withoutCutsom} onMouseMove={handleMouseMove}>
+            <div className='container-drag-text'>
+              drag
+            </div>
+          </div>
           <Carousel
             responsive={responsive}
             arrows={false}

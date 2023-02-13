@@ -304,6 +304,11 @@
 
 }
 
+.navcenter {
+    width: 186px;
+    height: 31px;
+}
+
 .stick-homenavbar1 .booknow {
     padding: 5px 10px 5px 10px;
     color: #FFFFFF;
@@ -322,16 +327,27 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 
     .imgscroll {
-        width: 165px;
+        width: 160px;
         height: 58px;
         margin-top: -31px;
     }
-
-
+    .navcenter {
+        width: 115px;
+        height: 31px;
+    }
+    .homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        margin-left: 26px;
+        align-items: center;
+        grid-gap: 22%;
+        grid-gap: 22%;
+        gap: 9%;
+    }
     .homenavbar1 .navleft .tab {
         list-style: none;
         font-family: 'Canela Deck Trial';
@@ -347,15 +363,46 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 34px;
-        gap: 20%;
+        grid-gap: 22%;
+        gap: 22%;
+        margin-left: 0px;
+    }
+    .trav4 {
+    
+        width: 597px;
+        height: 535px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-family: 'Halimun';
+        font-weight: 400;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center center;
+        background-size: contain;
+        font-weight: 400;
+        font-size: 28px;
     }
 
     .stick-homenavbar1 .navleft {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 12%;
+        gap: 4%;
+    }
+    .trav2 {
+        width: 620px;
+        height: 120px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 157.5%;
+        text-align: center;
+        text-transform: lowercase;
+        padding: 3rem;
+        color: #666666b6;
     }
 
     .homenavbar1 {
@@ -371,12 +418,23 @@
         margin-top: 20px;
     }
 
-    .homenavbar1 .navright {
+    .stick-homenavbar1 .navright {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 93px;
-        gap: 56%;
+        grid-gap: 4%;
+        padding-left: 41px;
+        gap: 3%;
+    }
+    .trav3 {
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 48px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #114141;
     }
 
     .text1 {
@@ -385,9 +443,21 @@
         font-size: 26px;
         /* margin-left: 49px; */
         text-align: center;
-        margin-top: -243px;
+        margin-top: -541px;
     }
-
+    .trav2 {
+        width: 630px;
+        height: 120px;
+        font-family: 'Canela Text Trial';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 157.5%;
+        text-align: center;
+        text-transform: lowercase;
+        padding: 3rem;
+        color: #666666b6;
+    }
     .imglogo {
         width: 471px;
         height: 26px;
@@ -411,13 +481,17 @@
         height: 16px;
         margin-right: -21px;
     }
-
-    .stick-homenavbar1 .navright {
+    .text-box {
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 4%;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 83%;
     }
+
+    
+    
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
@@ -427,8 +501,52 @@
     }
 
 }
+@media only screen and (min-width: 501px) and (max-width: 688px) {
 
-@media only screen and (min-width: 768px) and (max-width: 899px) {
+    .text-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 76%;
+    }
+    .homenavbar1 {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+    .navcenter {
+        width: 137px;
+        height: 31px;
+    }
+    .homenavbar1 .navleft {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 62px;
+        gap: 8%;
+    }
+    .homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 55px;
+        grid-gap: 10%;
+        gap: 2%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
 
     .stick-homenavbar1 .navright .tab {
         list-style: none;
@@ -438,13 +556,16 @@
         font-size: 10px;
         text-align: center;
     }
-
+    .navcenter {
+        width: 128px;
+        height: 31px;
+    }
     .homenavbar1 .navleft {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 22%;
-        margin-left: -90px;
+        gap: 15%;
+        margin-left: -72px;
     }
 
     .text1 {
@@ -464,6 +585,30 @@
 
     .mouse {
         margin-top: 20px;
+    }
+    .homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        margin-left: 16px;
+        align-items: center;
+        grid-gap: 22%;
+        grid-gap: 22%;
+        gap: 7%;
+    }
+    .stick-homenavbar1 .navleft {
+        display: flex;
+        flex-direction: row;
+        margin-left: -55px;
+        align-items: center;
+        grid-gap: 30%;
+        gap: 17%;
+    }
+    .stick-homenavbar1 .navright {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        grid-gap: 21%;
+        gap: 10%;
     }
 
 }
@@ -487,7 +632,7 @@
 
     .text-box {
         scale: 0.8;
-        margin-top: -160px;
+        margin-top: -72px;
     }
 
     .mouse {
@@ -502,7 +647,14 @@
         width: 168px;
         height: 100px;
     }
-
+    .text-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 66%;
+    }
     .text1 {
         text-align: center;
         font-family: 'Halimun';
@@ -516,7 +668,7 @@
 
 
     }
-
+    
     .homenavbar1 .navright .tab {
         list-style: none;
         width: 100%;
@@ -543,6 +695,14 @@
     .img-res {
         width: 168px;
         height: 100px;
+    }
+    .text-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 35%;
     }
 
     .text1 {
@@ -624,7 +784,7 @@
 .mobile-nav-icon {
     display: flex;
     position: absolute;
-    top: 36px;
+    top: 20px;
     right: 20px;
     cursor: pointer;
 }
@@ -717,10 +877,15 @@
     background: #ffffff;
     padding: 2rem;
     position: absolute;
-    top: 40px;
+    top: 38px;
     right: 0;
     margin-top: 1rem;
     min-width: 180px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.mob-nav-menu-container-links a {
+    text-decoration: none;
+    color: #7B7B3B;
 }
