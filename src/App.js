@@ -15,17 +15,8 @@ import Package from "./components/Package";
 
 export const MobileContext = React.createContext();
 
-export const MouseContext = createContext({
-  cursorType: "",
-  cursorChangeHandler: () => { },
-});
-
 function App() {
   const [screenSize, setScreenSize] = useState({ width: window.innerWidth, height: window.innerHeight });
-  const [cursorType, setCursorType] = useState("");
-  const cursorChangeHandler = (cursorType) => {
-    setCursorType(cursorType);
-  };
 
   useEffect(() => {
     function handleResize() {
@@ -37,9 +28,6 @@ function App() {
     };
   }, []);
 
-  const MouseContextProvider = (props) => {
-    
-  }
 
   return (
     <div className='main-body'>
@@ -48,14 +36,7 @@ function App() {
         <Welcome></Welcome>
         <Package></Package>
         <Unique></Unique>
-        <MouseContext.Provider
-          value={{
-            cursorType: cursorType,
-            cursorChangeHandler: cursorChangeHandler,
-          }}
-        >
-          <Cleanminimal></Cleanminimal>
-        </MouseContext.Provider>
+        <Cleanminimal></Cleanminimal>
         <Blog></Blog>
         <StaySocial></StaySocial>
         <Footer></Footer>
